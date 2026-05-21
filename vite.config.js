@@ -3,5 +3,5 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  base: "/3.2/"
+  base: "/AI-harms-monitoring-3.2/"
 });
