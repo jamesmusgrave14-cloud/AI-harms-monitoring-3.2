@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "ok": true,
+    "generatedAt": "2026-05-20T00:00:00+00:00",
+    "mode": "placeholder",
+    "total": 1
+  },
+  "briefing": {
+    "generatedAt": "2026-05-20T00:00:00+00:00",
+    "headline": "Placeholder data loaded. GitHub Actions will replace this with live monitoring output.",
+    "suggested_use": "Use as a triage aid. Verify sources before using in advice, briefings or commissions."
+  },
+  "clusters": [],
+  "watchlist": [],
+  "articles": [
+    {
+      "id": "placeholder-1",
+      "title": "Placeholder open-weights monitoring item",
+      "summary": "If you can see this, the app is working. Live monitoring will replace this file on the next GitHub Actions run.",
+      "url": "",
+      "domain": "",
+      "source": "Local placeholder",
+      "source_type": "placeholder",
+      "publishedAt": "2026-05-20T00:00:00+00:00",
+      "category": "Model and tool watchlist",
+      "risk_area": "Cross-cutting",
+      "relevance_score": 1,
+      "why": [
+        "Placeholder"
+      ],
+      "uk_relevant": false,
+      "priority": "Watch",
+      "policy_implications": [
+        "Check data build workflow"
+      ],
+      "open_source_signal": true,
+      "open_source_strength": "Strong",
+      "evidence_kind": "Open weights / repository signal",
+      "watchlist_hits": []
+    }
+  ]
+}

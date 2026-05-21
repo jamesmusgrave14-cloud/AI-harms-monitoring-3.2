@@ -1,0 +1,254 @@
+{
+  "Fraud and financial exploitation": {
+    "risk_area": "RA09",
+    "family": "Economic harm",
+    "description": "AI-enabled fraud, scams and financial exploitation.",
+    "semantic_profile": "AI fraud scams synthetic media voice cloning phishing social engineering financial exploitation identity deception",
+    "query": "AI fraud scam voice cloning phishing social engineering",
+    "ai_terms": [
+      "AI",
+      "artificial intelligence",
+      "generative AI",
+      "deepfake",
+      "voice clone",
+      "LLM",
+      "chatbot",
+      "synthetic media"
+    ],
+    "core_terms": [
+      "fraud",
+      "scam",
+      "phishing",
+      "social engineering",
+      "impersonation",
+      "identity theft",
+      "financial exploitation"
+    ],
+    "support_terms": [
+      "bank",
+      "payment",
+      "cryptocurrency",
+      "romance scam",
+      "investment scam",
+      "account takeover"
+    ],
+    "uk_terms": [
+      "UK",
+      "Britain",
+      "England",
+      "Wales",
+      "Scotland",
+      "Northern Ireland",
+      "Home Office",
+      "Ofcom",
+      "NCA",
+      "FCA",
+      "Action Fraud"
+    ],
+    "policy_implications": [
+      "Fraud threat monitoring",
+      "Testing and assurance priorities",
+      "Cross-government evidence base"
+    ]
+  },
+  "Child safety and exploitation risks": {
+    "risk_area": "RA11",
+    "family": "Safeguarding harm",
+    "description": "AI-enabled child safety and exploitation risks using non-explicit public-interest terms.",
+    "semantic_profile": "AI child safety safeguarding exploitation online abuse synthetic imagery grooming platform risk",
+    "query": "AI child safety safeguarding online exploitation synthetic imagery",
+    "ai_terms": [
+      "AI",
+      "artificial intelligence",
+      "generative AI",
+      "deepfake",
+      "synthetic image",
+      "synthetic imagery",
+      "image generator",
+      "chatbot"
+    ],
+    "core_terms": [
+      "child safety",
+      "safeguarding",
+      "online exploitation",
+      "grooming",
+      "child protection",
+      "abuse material"
+    ],
+    "support_terms": [
+      "platform",
+      "moderation",
+      "reporting",
+      "law enforcement",
+      "school",
+      "youth"
+    ],
+    "uk_terms": [
+      "UK",
+      "Britain",
+      "England",
+      "Wales",
+      "Scotland",
+      "Northern Ireland",
+      "Home Office",
+      "Ofcom",
+      "NCA",
+      "IWF",
+      "NSPCC"
+    ],
+    "sensitive": true,
+    "display_reason": "Sensitive safeguarding signal",
+    "policy_implications": [
+      "Safeguarding policy monitoring",
+      "Legal and platform response tracking",
+      "Risk assessment evidence"
+    ]
+  },
+  "Terrorism and extremism misuse": {
+    "risk_area": "RA13",
+    "family": "National security harm",
+    "description": "AI-enabled terrorism or extremism misuse risks.",
+    "semantic_profile": "AI terrorism extremism propaganda radicalisation recruitment synthetic media operational misuse",
+    "query": "AI terrorism extremism propaganda radicalisation synthetic media",
+    "ai_terms": [
+      "AI",
+      "artificial intelligence",
+      "generative AI",
+      "deepfake",
+      "LLM",
+      "chatbot",
+      "synthetic media"
+    ],
+    "core_terms": [
+      "terrorism",
+      "extremism",
+      "radicalisation",
+      "propaganda",
+      "recruitment",
+      "violent extremism"
+    ],
+    "support_terms": [
+      "manifesto",
+      "incitement",
+      "online platform",
+      "counter terrorism",
+      "security"
+    ],
+    "uk_terms": [
+      "UK",
+      "Britain",
+      "England",
+      "Wales",
+      "Scotland",
+      "Northern Ireland",
+      "Home Office",
+      "CONTEST",
+      "Prevent",
+      "CTP"
+    ],
+    "policy_implications": [
+      "National security monitoring",
+      "Threat assessment support",
+      "Counter-terrorism policy evidence"
+    ]
+  },
+  "Illegal items and weapons enablement": {
+    "risk_area": "RA14",
+    "family": "Physical harm enablement",
+    "description": "AI-enabled creation, acquisition or facilitation of illegal items, weapons or controlled goods.",
+    "semantic_profile": "AI weapons illegal items controlled goods instructions acquisition trafficking evasion 3D printed weapons",
+    "query": "AI illegal weapons controlled goods 3D printed weapons instructions",
+    "ai_terms": [
+      "AI",
+      "artificial intelligence",
+      "generative AI",
+      "LLM",
+      "chatbot",
+      "model"
+    ],
+    "core_terms": [
+      "weapon",
+      "firearm",
+      "3D printed",
+      "controlled goods",
+      "illegal item",
+      "trafficking",
+      "evasion"
+    ],
+    "support_terms": [
+      "instructions",
+      "acquisition",
+      "manufacture",
+      "design",
+      "blueprint",
+      "supply"
+    ],
+    "uk_terms": [
+      "UK",
+      "Britain",
+      "England",
+      "Wales",
+      "Scotland",
+      "Northern Ireland",
+      "Home Office",
+      "NCA",
+      "police"
+    ],
+    "policy_implications": [
+      "Serious violence and illegal goods monitoring",
+      "Testing safeguards",
+      "Operational policy input"
+    ]
+  },
+  "Model and tool watchlist": {
+    "risk_area": "Cross-cutting",
+    "family": "Capability monitoring",
+    "description": "Emerging AI models, agents, tools and capability shifts relevant to harms mitigation.",
+    "semantic_profile": "new AI model agent autonomous tool capability release jailbreak safety evaluation benchmark multimodal",
+    "query": "new AI model agent capability safety evaluation jailbreak multimodal",
+    "ai_terms": [
+      "AI",
+      "artificial intelligence",
+      "generative AI",
+      "LLM",
+      "frontier model",
+      "agent",
+      "multimodal",
+      "open weight"
+    ],
+    "core_terms": [
+      "release",
+      "capability",
+      "safety",
+      "evaluation",
+      "benchmark",
+      "jailbreak",
+      "misuse",
+      "red team"
+    ],
+    "support_terms": [
+      "OpenAI",
+      "Anthropic",
+      "Google",
+      "Meta",
+      "Microsoft",
+      "Mistral",
+      "xAI",
+      "DeepSeek"
+    ],
+    "uk_terms": [
+      "UK",
+      "Britain",
+      "AISI",
+      "AI Safety Institute",
+      "DSIT",
+      "Ofcom",
+      "NCSC"
+    ],
+    "policy_implications": [
+      "Model capability monitoring",
+      "Testing priorities",
+      "Assurance and evaluation horizon scanning"
+    ]
+  }
+}

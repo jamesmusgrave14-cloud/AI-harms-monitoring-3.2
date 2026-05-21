@@ -1,0 +1,41 @@
+{
+  "items": [
+    {
+      "name": "Frontier model releases",
+      "type": "capability",
+      "aliases": [
+        "frontier model",
+        "new AI model",
+        "reasoning model",
+        "multimodal model"
+      ],
+      "reason": "Capability shifts may affect misuse and assurance priorities",
+      "owner_hint": "AI harms / assurance"
+    },
+    {
+      "name": "AI agents",
+      "type": "capability",
+      "aliases": [
+        "AI agent",
+        "autonomous agent",
+        "agentic AI",
+        "computer use agent"
+      ],
+      "reason": "Agentic systems may change task automation and abuse pathways",
+      "owner_hint": "AI harms / testing"
+    },
+    {
+      "name": "Deepfake and synthetic media tools",
+      "type": "tooling",
+      "aliases": [
+        "deepfake",
+        "voice clone",
+        "synthetic media",
+        "image generator",
+        "video generator"
+      ],
+      "reason": "Synthetic media can affect fraud, abuse, safeguarding and trust risks",
+      "owner_hint": "Policy teams"
+    }
+  ]
+}

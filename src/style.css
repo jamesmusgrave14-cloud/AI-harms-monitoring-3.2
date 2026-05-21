@@ -1,0 +1,53 @@
+html, body, #root { margin: 0; min-height: 100%; width: 100%; }
+* { box-sizing: border-box; }
+body { background: #eef3fb; color: #0f172a; font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif; overflow-x: hidden; }
+button, input, select { font: inherit; }
+.appShell { width: 100%; max-width: 1260px; margin: 0 auto; padding: 22px 18px 56px; }
+.heroPanel { display: grid; grid-template-columns: 1.35fr .95fr; gap: 22px; align-items: stretch; background: radial-gradient(circle at 10% 0%, #2563eb 0, #172554 48%, #0f172a 100%); color: white; border-radius: 34px; padding: 34px; box-shadow: 0 24px 70px rgba(15,23,42,.28); overflow: hidden; }
+.eyebrow, .label { text-transform: uppercase; letter-spacing: .14em; font-size: 12px; font-weight: 900; margin: 0 0 10px; color: #60a5fa; }
+.heroPanel .eyebrow { color: #bfdbfe; }
+.heroPanel h1 { font-size: clamp(46px, 6.5vw, 82px); line-height: .9; margin: 0 0 18px; letter-spacing: -.055em; }
+.subtitle { color: #dbeafe; font-size: 18px; max-width: 780px; margin: 0; line-height: 1.45; }
+.heroNote { margin: 16px 0 0; color: #bfdbfe; font-size: 14px; max-width: 780px; }
+.navBar, .quickBar { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 18px; }
+.quickBar { position: sticky; top: 0; z-index: 5; background: rgba(238,243,251,.92); backdrop-filter: blur(8px); padding: 10px 0; margin: 12px 0; }
+button, .resultCard a { border: 0; border-radius: 999px; padding: 10px 15px; font-weight: 850; cursor: pointer; text-decoration: none; display: inline-flex; align-items: center; justify-content: center; gap: 6px; background: #2563eb; color: white; box-shadow: 0 8px 20px rgba(37,99,235,.22); }
+button:hover { background: #1d4ed8; }
+.navBar button { background: rgba(255,255,255,.14); color: #fff; border: 1px solid rgba(255,255,255,.22); box-shadow: none; }
+.navBar button:hover { background: rgba(255,255,255,.22); }
+.navBar button.active { background: #fff; color: #0f172a; border-color: rgba(255,255,255,.9); }
+.navBar button.secondary { background: rgba(15,23,42,.6); color: white; }
+.heroMetrics { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.metric { background: rgba(255,255,255,.11); border: 1px solid rgba(255,255,255,.22); border-radius: 24px; padding: 18px; backdrop-filter: blur(10px); }
+.metric span { display: block; color: #dbeafe; font-size: 13px; font-weight: 800; }
+.metric strong { display: block; font-size: 42px; line-height: 1; margin-top: 8px; }
+.metric.red strong { color: #fecaca; } .metric.green strong { color: #bbf7d0; } .metric.blue strong { color: #bfdbfe; }
+.toolbarCard, .panel { background: white; border: 1px solid #dbe4f0; border-radius: 28px; padding: 18px; margin: 18px 0; box-shadow: 0 12px 40px rgba(15,23,42,.08); }
+.filters { display: grid; grid-template-columns: minmax(230px, 1.5fr) repeat(6, minmax(130px, 1fr)) auto; gap: 12px; align-items: end; margin-bottom: 12px; }
+.filters label { display: flex; flex-direction: column; gap: 6px; color: #64748b; font-weight: 900; text-transform: uppercase; font-size: 11px; }
+.filters .check { flex-direction: row; align-items: center; text-transform: none; font-size: 14px; padding-bottom: 11px; white-space: nowrap; }
+.filters .check input { width: auto; min-height: auto; }
+input, select { width: 100%; min-height: 44px; border: 1px solid #cbd5e1; border-radius: 15px; padding: 11px 13px; background: #f8fafc; color: #0f172a; outline: none; }
+input:focus, select:focus { border-color: #2563eb; box-shadow: 0 0 0 4px rgba(37,99,235,.12); background: white; }
+.filterSummary { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; margin: 0 0 14px; color: #475569; font-size: 14px; }
+.filterSummary span { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 999px; padding: 8px 11px; }
+.sectionHeader { display: flex; align-items: flex-start; justify-content: space-between; gap: 14px; margin-bottom: 14px; }
+h2, h3 { margin: 0; letter-spacing: -.025em; } h2 { font-size: 25px; } h3 { font-size: 17px; }
+.headline { font-size: 20px; line-height: 1.45; color: #334155; margin: 10px 0 0; }
+.resultGrid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+.resultCard, .clusterCard { border: 1px solid #e2e8f0; background: #fff; border-radius: 22px; padding: 18px; box-shadow: 0 4px 18px rgba(15,23,42,.05); }
+.resultCard:hover { border-color: #bfdbfe; box-shadow: 0 10px 30px rgba(15,23,42,.08); }
+.resultTop { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; margin-bottom: 12px; }
+.badge { border-radius: 999px; padding: 5px 9px; font-size: 12px; font-weight: 900; background: #e2e8f0; color: #334155; }
+.badge.high { background: #fee2e2; color: #991b1b; } .badge.medium { background: #fef3c7; color: #92400e; } .badge.watch { background: #eff6ff; color: #1d4ed8; } .badge.uk { background: #dcfce7; color: #166534; } .badge.watchhit { background: #ede9fe; color: #5b21b6; } .badge.os { background: #d1fae5; color: #065f46; } .badge.neutral { background: #f1f5f9; color: #334155; }
+.score { margin-left: auto; color: #64748b; font-size: 13px; font-weight: 850; }
+.dateChip { display: inline-flex; width: fit-content; background: #f8fafc; color: #475569; border-radius: 999px; padding: 8px 11px; font-size: 12px; font-weight: 850; margin: 0 0 12px; }
+.summary { color: #334155; line-height: 1.5; } .meta, .why, .note, .muted { color: #64748b; font-size: 14px; line-height: 1.45; }
+.howUseStrip { margin-top: 14px; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 16px; padding: 13px 14px; color: #334155; }
+.cardActions { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 14px; } .cardActions a { background: #0f172a; color: white; } .cardActions a:hover { background: #1e293b; }
+.clusterList { display: grid; gap: 14px; margin-top: 14px; } .clusterCard ul { margin-bottom: 14px; }
+.notice, .error { border-radius: 18px; padding: 14px; background: white; border: 1px solid #dbe4f0; margin: 18px 0; }
+.error { background: #fff1f2; border-color: #fecdd3; color: #991b1b; }
+@media (max-width: 1200px) { .filters { grid-template-columns: 1fr 1fr 1fr; } }
+@media (max-width: 1050px) { .heroPanel, .resultGrid { grid-template-columns: 1fr; } .filters { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 680px) { .appShell { padding: 12px; } .heroPanel { border-radius: 24px; padding: 24px; } .heroMetrics, .filters { grid-template-columns: 1fr; } .sectionHeader { flex-direction: column; } }
